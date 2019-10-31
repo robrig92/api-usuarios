@@ -35,7 +35,7 @@ class UsersController extends Controller
             'paternal_surname' => 'string|required',
             'maternal_surname' => 'string|nullable',
             'age' => 'integer|nullable',
-            'role' => 'integer|exists:roles,id',
+            'role' => 'integer|required|exists:roles,id',
             'permissions' => 'array|required',
         ]);
 

@@ -23,7 +23,6 @@ Route::group([
     Route::get('/', 'UsersController@all');
     Route::get('/roles/{role}', 'UsersController@byRol');
     Route::get('/active/{active}', 'UsersController@byActive');
-    Route::get('/roles/{role}', 'UsersController@byRol');
     Route::get('/permissions/{permission}', 'UsersController@byPermission');
     Route::post('/', 'UsersController@store');
     Route::patch('/{user}', 'UsersController@update');
