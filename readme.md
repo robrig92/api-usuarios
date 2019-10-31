@@ -23,7 +23,7 @@ body-json:<br/>
 'paternal_surname' => 'string' requerido<br/>
 'maternal_surname' => 'string'<br/>
 'age' => 'integer|nullable',<br/>
-'role' => 'integer' requerido, ID del registro en database,<br/>
+'role' => 'integer' requerido, ID del registro en database, example: "permissions":{1,2,3,4}<br/>
 'permissions' => 'array' requerido, Con IDs de cada permission en database,<br/>
 127.0.0.1:8000/api/users<br/>
 <br/>
@@ -63,7 +63,7 @@ body-json:<br/>
 'maternal_surname' => 'string'<br/>
 'age' => 'integer|nullable',<br/>
 'role' => 'integer' ID del registro en database,<br/>
-'permissions' => 'array' Con IDs de cada permission en database,<br/>
+'permissions' => 'array' Con IDs de cada permission en database, example: "permissions":{1,2,3,4}<br/>
 127.0.0.1:8000/api/users/roles/1<br/>
 <br/>
 Eliminar usuario<br/>
