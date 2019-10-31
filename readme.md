@@ -29,7 +29,7 @@ body-json:<br/>
 <br/>
 Ver usuario<br/>
 Method: GET<br/>
-Params: id - ID del usuario
+Params: id - ID del usuario</br>
 127.0.0.1:8000/api/users/{id}<br/>
 <br/>
 Ver todos usuarios<br/>
