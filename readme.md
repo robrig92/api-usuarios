@@ -3,7 +3,8 @@ Instalación<br/>
 Clonar el repositorio<br/>
 Crear archivo .env<br/>
     configurar base de datos<br/>
-Composer install<br/>
+ejecutar composer install<br/>
+Generar llave php artisan key:generate<br/>
 php artisan migrate<br/>
 composer dump-autoload<br/>
 php artisan gb:seed<br/>
