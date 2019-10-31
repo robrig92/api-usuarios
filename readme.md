@@ -14,41 +14,41 @@ body-json:<br/>
 'permissions' => 'array' requerido, Con IDs de cada permission en database,<br/>
 127.0.0.1:8000/api/users/roles<br/>
 <br/>
-Ver todos usuarios
-Method: GET
-127.0.0.1:8000/api/users/roles/1
-
-Ver por rol
-Method: GET
-Params: id - Identificador del rol
-127.0.0.1:8000/api/users/roles/{id}
-
-Ver por permiso
-Method: GET
-Params: id - Identificador del permiso
-127.0.0.1:8000/api/users/permissions/{id}
-
-Ver por activo
-Method: GET
-Params: activo - 1, 0
-127.0.0.1:8000/api/users/active
-
-Actualizar usuario
-Method: PATCH
-Params: id - ID del recurso usuario
-body-json:
-'username' => 'string' requerido debe ser único,
-'email' => 'string' requerido. debe ser único,
-'names' => 'string' requerido,
-'password' => 'string',
-'paternal_surname' => 'string' requerido
-'maternal_surname' => 'string'
-'age' => 'integer|nullable',
-'role' => 'integer' ID del registro en database,
-'permissions' => 'array' Con IDs de cada permission en database,
-127.0.0.1:8000/api/users/roles/1
-
-Eliminar usuario
-Method: DELETE
-Params: id - ID del recurso usuario
-127.0.0.1:8000/api/users/{id}
+Ver todos usuarios<br/>
+Method: GET<br/>
+127.0.0.1:8000/api/users/roles/1<br/>
+<br/>
+Ver por rol<br/>
+Method: GET<br/>
+Params: id - Identificador del rol<br/>
+127.0.0.1:8000/api/users/roles/{id}<br/>
+<br/>
+Ver por permiso<br/>
+Method: GET<br/>
+Params: id - Identificador del permiso<br/>
+127.0.0.1:8000/api/users/permissions/{id}<br/>
+<br/>
+Ver por activo<br/>
+Method: GET<br/>
+Params: activo - 1, 0<br/>
+127.0.0.1:8000/api/users/active/{active}<br/>
+<br/>
+Actualizar usuario<br/>
+Method: PATCH<br/>
+Params: id - ID del recurso usuario<br/>
+body-json:<br/>
+'username' => 'string' requerido debe ser único,<br/>
+'email' => 'string' requerido. debe ser único,<br/>
+'names' => 'string' requerido,<br/>
+'password' => 'string',<br/>
+'paternal_surname' => 'string' requerido<br/>
+'maternal_surname' => 'string'<br/>
+'age' => 'integer|nullable',<br/>
+'role' => 'integer' ID del registro en database,<br/>
+'permissions' => 'array' Con IDs de cada permission en database,<br/>
+127.0.0.1:8000/api/users/roles/1<br/>
+<br/>
+Eliminar usuario<br/>
+Method: DELETE<br/>
+Params: id - ID del recurso usuario<br/>
+127.0.0.1:8000/api/users/{id}<br/>
