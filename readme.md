@@ -2,7 +2,7 @@ Instalación<br/>
 <br/>
 Clonar el repositorio<br/>
 Crear archivo .env<br/>
-    condifurar base de datos<br/>
+    configurar base de datos<br/>
 Composer install<br/>
 php artisan migrate<br/>
 composer dump-autoload<br/>
