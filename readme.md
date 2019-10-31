@@ -1,19 +1,19 @@
 URLS:
 
-Crear usuario
-Method: POST
-body-json:
-'username' => 'string' requerido debe ser único,
-'email' => 'string' requerido. debe ser único,
-'names' => 'string' requerido,
-'password' => 'string' requerido,
-'paternal_surname' => 'string' requerido
-'maternal_surname' => 'string'
-'age' => 'integer|nullable',
-'role' => 'integer' requerido, ID del registro en database,
-'permissions' => 'array' requerido, Con IDs de cada permission en database,
-127.0.0.1:8000/api/users/roles
-
+Crear usuario<br/>
+Method: POST<br/>
+body-json:<br/>
+'username' => 'string' requerido debe ser único,<br/>
+'email' => 'string' requerido. debe ser único,<br/>
+'names' => 'string' requerido,<br/>
+'password' => 'string' requerido,<br/>
+'paternal_surname' => 'string' requerido<br/>
+'maternal_surname' => 'string'<br/>
+'age' => 'integer|nullable',<br/>
+'role' => 'integer' requerido, ID del registro en database,<br/>
+'permissions' => 'array' requerido, Con IDs de cada permission en database,<br/>
+127.0.0.1:8000/api/users/roles<br/>
+<br/>
 Ver todos usuarios
 Method: GET
 127.0.0.1:8000/api/users/roles/1
