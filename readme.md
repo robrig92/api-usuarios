@@ -1,5 +1,17 @@
+Instalación<br/>
+<br/>
+Clonar el repositorio<br/>
+Crear archivo .env<br/>
+    condifurar base de datos<br/>
+Composer install<br/>
+php artisan migrate<br/>
+composer dump-autoload<br/>
+php artisan gb:seed<br/>
+php artisan serve para instancia local<br/>
+Enjoy!<br/>
+<br/>
 URLS:
-
+<br/>
 Crear usuario<br/>
 Method: POST<br/>
 body-json:<br/>
