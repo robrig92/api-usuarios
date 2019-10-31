@@ -27,6 +27,11 @@ body-json:<br/>
 'permissions' => 'array' requerido, Con IDs de cada permission en database,<br/>
 127.0.0.1:8000/api/users<br/>
 <br/>
+Ver usuario<br/>
+Method: GET<br/>
+Params: id - ID del usuario
+127.0.0.1:8000/api/users/{id}<br/>
+<br/>
 Ver todos usuarios<br/>
 Method: GET<br/>
 127.0.0.1:8000/api/users<br/>

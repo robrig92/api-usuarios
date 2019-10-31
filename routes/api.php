@@ -27,4 +27,5 @@ Route::group([
     Route::post('/', 'UsersController@store');
     Route::patch('/{user}', 'UsersController@update');
     Route::delete('/{user}', 'UsersController@destroy');
+    Route::get('/{user}', 'UsersController@show');
 });
