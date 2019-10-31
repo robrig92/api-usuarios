@@ -29,7 +29,7 @@ body-json:<br/>
 <br/>
 Ver todos usuarios<br/>
 Method: GET<br/>
-127.0.0.1:8000/api/users/roles/1<br/>
+127.0.0.1:8000/api/users<br/>
 <br/>
 Ver por rol<br/>
 Method: GET<br/>
