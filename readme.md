@@ -25,7 +25,7 @@ body-json:<br/>
 'age' => 'integer|nullable',<br/>
 'role' => 'integer' requerido, ID del registro en database,<br/>
 'permissions' => 'array' requerido, Con IDs de cada permission en database,<br/>
-127.0.0.1:8000/api/users/roles<br/>
+127.0.0.1:8000/api/users<br/>
 <br/>
 Ver todos usuarios<br/>
 Method: GET<br/>
